@@ -1,16 +1,8 @@
 # nmg
 
-A new Flutter project.
+A Assignment of Flutter project. In this, Here I have shown list of authors with his list of posts.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here sealed class (freezed) is used so it may require you to run build_runner, Here in 2 files named result.dart & network_exception.dart, While if it failed to run then follow commands as
+  ‣ flutter clean
+  ‣ flutter pub get
+  ‣ flutter packages pub run build_runner build --delete-conflicting-outputs
